@@ -1,24 +1,7 @@
-# Microsoft Entra ID MudBlazor
+# Any .NET Project
 
-[![.NET](https://github.com/damienbod/MicrosoftEntraIDMudBlazor/actions/workflows/dotnet.yml/badge.svg)](https://github.com/damienbod/MicrosoftEntraIDMudBlazor/actions/workflows/dotnet.yml)  [![Deploy Azure Web App](https://github.com/damienbod/MicrosoftEntraIDMudBlazor/actions/workflows/azure-webapps-dotnet-core.yml/badge.svg)](https://github.com/damienbod/MicrosoftEntraIDMudBlazor/actions/workflows/azure-webapps-dotnet-core.yml)
+![Dependencies](https://dtrack.example.com/api/v1/badge/vulns/project/495e7b3a-d3b0-4046-a2ec-d30ee551710a?apiKey=odt_jJzBOQ9Nq1RYq2DZqWe48NAs4umonTrO)
+![Policies](https://dtrack.example.com/api/v1/badge/violations/project/495e7b3a-d3b0-4046-a2ec-d30ee551710a?apiKey=odt_jJzBOQ9Nq1RYq2DZqWe48NAs4umonTrO)
 
-[Securing a MudBlazor UI web application using security headers and Microsoft Entra ID](https://damienbod.com/2023/12/13/securing-a-mudblazor-ui-web-application-using-security-headers-and-microsoft-entra-id/)
-
-![BFF production](https://github.com/damienbod/MicrosoftEntraIDMudBlazor/blob/main/images/secure-mudblazor_01.png)
-
-
-## Deployment 
-
-https://me-id-mudblazor.azurewebsites.net/directapi
-
-## Links
-
-https://mudblazor.com/
-
-https://github.com/MudBlazor/MudBlazor/
-
-https://github.com/damienbod/Blazor.BFF.AzureAD.Template
-
-https://learn.microsoft.com/en-us/aspnet/core/blazor
-
-https://learn.microsoft.com/en-us/aspnet/core/security
+[![.NET](https://github.com/damienbod/MicrosoftEntraIDMudBlazor/actions/workflows/dotnet.yml/badge.svg)](https://github.com/damienbod/MicrosoftEntraIDMudBlazor/actions/workflows/dotnet.yml) 
+[![Deploy Azure Web App](https://github.com/damienbod/MicrosoftEntraIDMudBlazor/actions/workflows/azure-webapps-dotnet-core.yml/badge.svg)](https://github.com/damienbod/MicrosoftEntraIDMudBlazor/actions/workflows/azure-webapps-dotnet-core.yml)
