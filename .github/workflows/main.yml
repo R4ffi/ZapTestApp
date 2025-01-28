@@ -12,10 +12,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - task: UseDotNet@2
+        inputs:
+          packageType: 'sdk'
+          version: '9.x'
+
       - name: Generate XML SBOM
         uses: CycloneDX/gh-dotnet-generate-sbom@v1
         with:
-          path: ./MicrosoftEntraIdMudBlazor.sln
+          path: ./demo-app/TravelDestinationRecommender.sln
           github-bearer-token: ${{ secrets.GITHUB_TOKEN }}
 
       # - name: Upload SBOM to Dependency-Track
