@@ -3,7 +3,7 @@ name: SBOM
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main" , "feature/new-app"]
 
 jobs:
   build:
