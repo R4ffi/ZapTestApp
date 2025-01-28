@@ -15,12 +15,12 @@ jobs:
       - name: Generate XML SBOM
         uses: CycloneDX/gh-dotnet-generate-sbom@v1
         with:
-          path: ./MicrosoftEntraIdMudBlazor.sln
+          path: ./demo-app/TravelDestinationRecommender.sln
           github-bearer-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload SBOM to Dependency-Track
-        uses: DependencyTrack/gh-upload-sbom@v3
-        with:
-          serverHostname: 'isol-d1-appsrv-dtrack-api.azurewebsites.net'
-          apiKey: ${{ secrets.DEPENDENCYTRACK_APIKEY }}
-          project: '495e7b3a-d3b0-4046-a2ec-d30ee551710a'
+      # - name: Upload SBOM to Dependency-Track
+      #   uses: DependencyTrack/gh-upload-sbom@v3
+      #   with:
+      #     serverHostname: 'isol-d1-appsrv-dtrack-api.azurewebsites.net'
+      #     apiKey: ${{ secrets.DEPENDENCYTRACK_APIKEY }}
+      #     project: '495e7b3a-d3b0-4046-a2ec-d30ee551710a'
